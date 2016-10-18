@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project Hangman</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+  </head>
+  <body>
+    <h1>HANGMAN</h1>
+    <form>
+      Input Word: <input type="text" id="wordEntry" autofocus placeholder="Type a word here"><br>
+      Hint: <input type="text" id="hintEntry" autofocus placeholder="Type hint here"><br>
+      <input type="submit" id="submitInput" value="Submit">
+    </form>
+    <h5>Timer:</h5>
+    <h4><time>00:00:00</time></h4>
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="clear">Clear</button>
+
+    <div class="word" id="wordBox" >
+      <h2>Guess the Word!!</h2>
+      <div id="showWord"></div>
+      <br>
+      <br>
+      <div id="showHint"></div>
+    </div>
+
+    <div id="hangTreeImage">
+      <img id="hangTreePic" src="images/hangmantree.png" alt="hangman tree">
+      <div class="wholePerson" id="wholePerson">
+        <div id="headcenter">
+        </div>
+        <div id="torsocenter">
+        </div>
+        <div id="armleft">
+        </div>
+        <div id="armright">
+        </div>
+        <div id="legleft">
+        </div>
+        <div id="legright">
+        </div>
+      </div>
+    </div>
+
+    <div class="guess" id="guessBox">
+      <input type="text" id="guessEntry" maxlength="1" autofocus placeholder="Type a letter!">
+      <input type="submit" id="submitGuess" value="Guess">
+    </div>
+    <br>
+    <div class="guesses" id="showGuesses">
+      Your incorrect guesses:<div id="displayGuesses"></div>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js" charset="utf-8"></script>
+
+  <script src="script.js"></script>
+  </body>
+</html>

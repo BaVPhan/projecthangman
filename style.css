@@ -1,0 +1,123 @@
+html {
+  font-family: 'Ruslan Display', cursive;
+  background-image: url("images/field.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 100% 75%;
+  position: relative;
+}
+div {
+  position: relative;
+}
+h1 {
+  text-align: center;
+  position: static;
+  margin-left: 300px;
+  font-size: 60px;
+  color: red;
+}
+h2 {
+  color: red;
+  padding-left: 360px;
+}
+.guesses {
+  color: red;
+  font-size: 23px;
+}
+body {
+  position: relative;
+}
+
+#showWord {
+  font-size: 45px;
+  padding-left: 360px;
+}
+#showHint {
+  font-size: 22px;
+  padding-left: 360px;
+}
+#hangTreeImage {
+  position: fixed;
+  right: 88px;
+  top: 297px;
+  width: 350px;
+  height: 700px;
+  z-index: -1;
+}
+#hangTreeImage #hangTreePic {
+	opacity: 0.72;
+	z-index: -1;
+}
+.wholePerson {
+  position: relative;
+  margin: 0 auto;
+  width: 150px;
+  height: 310px;
+  right: 10px;
+  bottom: 180px;
+  z-index: 1;
+}
+#headcenter{
+	height: 33px;
+	width: 31px;
+	border: solid 2px #000;
+	border-radius: 50%;
+	opacity: 1;
+	left: 6px;
+	top: 6px;
+	background-color: black;
+	z-index: 1;
+}
+#torsocenter {
+	width: 6px;
+	height: 73px;
+	right: 12px;
+	background: #000;
+	margin-left: 45px;
+	background-color: red;
+	z-indez: -1;
+}
+#armright {
+	position: absolute;
+	width: 3px;
+	height: 30px;
+	background: #000;
+	top: calc(48% - 103px);
+	left: calc(50% - 32px);
+	transform: rotate(155deg);
+	background-color: red;
+
+}
+#armleft {
+	position: absolute;
+	width: 3px;
+	height: 30px;
+	background: #000;
+	left: calc(50% - 42px);
+	top: calc(48% - 131px);
+	transform-origin: bottom;
+	transform: rotate(-155deg);
+	background-color: red;
+}
+
+#legleft{
+	position: absolute;
+	width: 3px;
+	height: 40px;
+	background: #000;
+	top: 85px;
+	left: calc(50% - 45px);
+	top: calc(50% - 49px);
+	transform: rotate(-169deg);
+	background-color: red;
+}
+#legright {
+	position: absolute;
+	width: 3px;
+	height: 40px;
+	background: #000;
+	left: calc(50% - 35px);
+	top: calc(50% - 49px);
+	transform: rotate(169deg);
+	background-color: red;
+}
