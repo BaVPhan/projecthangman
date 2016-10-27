@@ -50,7 +50,8 @@ $(document).ready(function(){
   }
 
   /* Start button */
-  // also vanilla js
+  // also vanilla js here
+  // I'd start the timer when you submit the word, rather than having an extra button you have to click
   start.onclick = timer;
 
   /* Stop button */
