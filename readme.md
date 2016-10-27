@@ -1,4 +1,4 @@
-
+<!-- I'd add a note about technologies used here -->
 
 BRONZE:
 I want the user to not be able to use numbers/strings.
